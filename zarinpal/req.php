@@ -4,7 +4,7 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 global $core;
 $MerchantID = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'; //Required
-$Amount = $core->temp['gateway']['price']*10;; //Amount will be based on Toman - Required
+$Amount = $core->temp['gateway']['price']; //Amount will be based on Toman - Required
 $invoice = $core->temp['gateway']['invoice'];
 $Description = 'خرید اشتراک'; // Required
 $Email = ''; // Optional

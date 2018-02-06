@@ -19,7 +19,6 @@ $result = $client->PaymentVerification(
 'Amount' => $Amount,
 ]
 );
-
 if ($result->Status == 100)
 {
 		$core->temp['gateway']['call']['msg']='پرداخت انجام شد !';
